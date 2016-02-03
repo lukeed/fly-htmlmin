@@ -4,7 +4,7 @@
   </a>
 </div>
 
-> [Htmlmin](https://github.com/lukeed/fly-htmlmin) plugin for _[Fly][fly]_.
+> Minify HTML with _[Fly][fly]_.
 
 [![][fly-badge]][fly]
 [![npm package][npm-ver-link]][releases]
@@ -13,7 +13,7 @@
 [![][mit-badge]][mit]
 
 ## Usage
-> Check out the [documentation](PLUGIN_DOCUMENTATION) to see the available options.
+> Check out the [HTML Minifier documentation](https://github.com/kangax/html-minifier#options-quick-reference) to see the available options.
 
 ### Install
 
@@ -25,7 +25,12 @@ npm install -D fly-htmlmin
 
 ```js
 export default function* () {
-  yield ...
+  yield this.source('dist/*.html')
+    .htmlmin({
+      removeComments: true,
+      // ...
+    })
+    .target('dist');
 }
 ```
 
