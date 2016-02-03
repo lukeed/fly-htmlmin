@@ -31,7 +31,7 @@ export default function* () {
 
 ## License
 
-[MIT][mit] © [luke][author] et [al][contributors]
+[MIT][mit] © [Luke Edwards][author] et [al][contributors]
 
 
 [mit]:          http://opensource.org/licenses/MIT
