@@ -33,8 +33,7 @@
     "url": "https://lukeed.com"
   },
   "dependencies": {
-    "html-minifier": "^1.1.0",
-    "object-assign": "^4.0.1"
+    "html-minifier": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^1.10.0",
