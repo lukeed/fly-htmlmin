@@ -11,7 +11,12 @@
   "keywords":[
     "fly",
     "fly-plugin",
-    "htmlmin"
+    "htmlmin",
+    "htm",
+    "html",
+    "minifier",
+    "minification",
+    "minify"
   ],
   "scripts": {
     "lint": "eslint *.js",
