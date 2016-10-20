@@ -27,7 +27,7 @@
     "url": "https://lukeed.com"
   },
   "dependencies": {
-    "html-minifier": "^1.1.0"
+    "html-minifier": "^3.1.0"
   },
   "devDependencies": {
     "tap-spec": "^4.1.1",
