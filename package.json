@@ -36,9 +36,9 @@
     "html-minifier": "^1.1.0"
   },
   "devDependencies": {
-    "eslint": "^1.10.0",
     "tap-spec": "^4.1.1",
-    "tape": "^4.2.2"
+    "tape": "^4.2.2",
+    "xo": "*"
   },
   "engines": {
     "iojs": ">= 1.0.0",
