@@ -19,13 +19,7 @@
     "minify"
   ],
   "scripts": {
-    "lint": "eslint *.js",
-    "setup": "npm i && npm test",
-    "spec": "npm run test | tspec",
-    "test": "npm run lint && npm run tape",
-    "build": "echo No build task specified.",
-    "deploy": "npm run test && git push origin master && npm publish",
-    "tape": "node --harmony --harmony_arrow_functions ./node_modules/tape/bin/tape test/*.js"
+    "test": "xo && tape test/*.js | tap-spec"
   },
   "author": {
     "name": "Luke Edwards",
@@ -43,5 +37,10 @@
   "engines": {
     "iojs": ">= 1.0.0",
     "node": ">= 0.11.0"
+  },
+  "xo": {
+    "rules": {
+      "require-yield": 1
+    }
   }
 }
