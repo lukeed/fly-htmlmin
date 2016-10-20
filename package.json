@@ -6,7 +6,7 @@
   "repository": "https://github.com/lukeed/fly-htmlmin",
   "main": "index.js",
   "files": [
-    "index.js"
+    "*.js"
   ],
   "keywords": [
     "fly",
