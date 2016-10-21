@@ -1,4 +1,4 @@
-# fly-htmlmin [![][travis-badge]][travis-link] [![npm package][npm-ver-link]][npm-pkg-link]
+# fly-htmlmin [![][travis-badge]][travis-link][![npm package][npm-ver-link]][npm-pkg-link]
 
 > Minify HTML with Fly.
 
