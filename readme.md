@@ -11,8 +11,8 @@ npm install --save-dev fly-htmlmin
 ## Usage
 
 ```js
-exports.default = function * () {
-  yield this.source('src/*.html')
+exports.minify = function * (fly) {
+  yield fly.source('src/*.html')
     .htmlmin({
       removeComments: false
     })
